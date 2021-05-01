@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+                crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="icon" href="logo2.png" type="image/x-icon">
+        <!-- below this a fadeToggle for clicking on city name to view citys hospital name -->
+        <script>
+                $(document).ready(function () {
+                        $("#valsad").click(function () {
+                                $(".valsad_hos").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#bilimora").click(function () {
+                                $(".bilimora_hos").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#surat").click(function () {
+                                $(".surat_hos").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#navsari").click(function () {
+                                $(".navsari_hos").fadeToggle();
+                        });
+                });
+        </script>
+
+                        <!-- below code for clicking on the hospital name view the doctors for valsad -->
+
+
+        <script>
+                $(document).ready(function () {
+                        $("#kasturba").click(function () {
+                                $(".kasturba_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#civil").click(function () {
+                                $(".civil_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#amit").click(function () {
+                                $(".amit_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#nirmaya").click(function () {
+                                $(".nirmaya_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#vibrant").click(function () {
+                                $(".vibrant_doc").fadeToggle();
+                        });
+                });
+        </script>
+
+        <!-- below code for clicking on the hospital name view the doctors for bilimora -->
+
+
+        <script>
+                $(document).ready(function () {
+                        $("#samved").click(function () {
+                                $(".samved_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#artik").click(function () {
+                                $(".artik_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#mandaliya").click(function () {
+                                $(".mandaliya_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#gupta").click(function () {
+                                $(".gupta_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#astha").click(function () {
+                                $(".astha_doc").fadeToggle();
+                        });
+                });
+        </script>
+
+         <!-- below code for clicking on the hospital name view the doctors for Surat -->
+
+
+         <script>
+                $(document).ready(function () {
+                        $("#care").click(function () {
+                                $(".care_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#udhna").click(function () {
+                                $(".udhna_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#asutosh").click(function () {
+                                $(".asutosh_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#shalby").click(function () {
+                                $(".shalby_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#mahavir").click(function () {
+                                $(".mahavir_doc").fadeToggle();
+                        });
+                });
+        </script>
+
+        
+         <!-- below code for clicking on the hospital name view the doctors for navsari -->
+
+
+         <script>
+                $(document).ready(function () {
+                        $("#yashfeen").click(function () {
+                                $(".yashfeen_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#civil1").click(function () {
+                                $(".civil1_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#anand").click(function () {
+                                $(".anand_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#shradha").click(function () {
+                                $(".shradha_doc").fadeToggle();
+                        });
+                });
+        </script>
+        <script>
+                $(document).ready(function () {
+                        $("#daboo").click(function () {
+                                $(".daboo_doc").fadeToggle();
+                        });
+                });
+        </script>
+
+        <title>Doctor-list</title>
+</head>
+<center>
+        <h1 class="display-4">Please Click on the respected City for doctors</h1>
+</center>
+<center style="margin-top: 30px;">
+        <CLICK id="valsad" class="btn btn-primary">Valsad</CLICK >
+        <CLICK  id="bilimora" class="btn btn-primary">Bilimora</CLICK >
+        <CLICK  id="surat" class="btn btn-primary">Surat</CLICK >
+        <CLICK  id="navsari" class="btn btn-primary">Navsari</CLICK >
+</center>
+<center>
+        <div style="display: none; margin-top: 20px;" class="valsad_hos">
+                <CLICK  id="kasturba" class="btn btn-success">Kasturba Hospital</CLICK >
+                <CLICK  id="civil" class="btn btn-success">Civil Hospital</CLICK >
+                <CLICK  id="amit" class="btn btn-success">Amit Hospital</CLICK >
+                <CLICK  id="nirmaya" class="btn btn-success">Nirmaya Hospital</CLICK >
+                <CLICK  id="vibrant" class="btn btn-success">Vibrant Hospital</CLICK >
+        </div>
+        <div style="display: none; margin-top: 20px;" class="bilimora_hos">
+                <CLICK  id="samved" class="btn btn-success">Samved Hospital</CLICK >
+                <CLICK  id="artik" class="btn btn-success">Artik Hospital</CLICK >
+                <CLICK  id="mandaliya" class="btn btn-success">Mandaliya Hospital</CLICK >
+                <CLICK  id="gupta" class="btn btn-success">Gupta Hospital</CLICK >
+                <CLICK  id="astha" class="btn btn-success">Astha Hospital</CLICK >
+        </div>
+        <div style="display: none; margin-top: 20px;" class="surat_hos">
+                <CLICK  id="care" class="btn btn-success">Care Hospital</CLICK >
+                <CLICK  id="udhna" class="btn btn-success">Udhna Hospital</CLICK >
+                <CLICK  id="asutosh" class="btn btn-success">Asutosh Hospital</CLICK >
+                <CLICK  id="shalby" class="btn btn-success">Shalby Hospital</CLICK >
+                <CLICK  id="mahavir" class="btn btn-success">Mahavir Hospital</CLICK >
+        </div>
+        <div style="display: none; margin-top: 20px;" class="navsari_hos">
+                <CLICK  id="yashfeen" class="btn btn-success">Yashfeen Hospital</CLICK >
+                <CLICK  id="civil1" class="btn btn-success">Civil Hospital</CLICK >
+                <CLICK  id="anand" class="btn btn-success">Anand Hospital</CLICK >
+                <CLICK  id="shradha" class="btn btn-success">Shradha Hospital</CLICK >
+                <CLICK  id="daboo" class="btn btn-success">Daboo </CLICK >
+        </div>
+</center>
+                <!-- Valsad Doctors -->
+<div style="display: none;" class="kasturba_doc">
+        <hr>
+        <center><h2>Kasturba Doctors</h2></center>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="civil_doc">
+        <hr>
+        <center><h2>Civil Doctors</h2></center>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="amit_doc">
+       <<hr>
+              <center> <h2>Amit Doctors</h2></center>
+        <hr>
+       <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="nirmaya_doc">
+       <<hr>
+               <center> <h2>Nirmaya Doctors</h2></center>
+        <hr>
+       <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="vibrant_doc">
+      <hr><center>  <h2>Vibrant Doctors</h2></center>
+        <hr>
+      <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+
+                <!-- Bilimora doctors -->
+<div style="display: none;" class="samved_doc">
+       <<hr>
+               <center> <h2>Samved Doctors</h2></center>
+        <hr>
+       <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="artik_doc">
+       <<hr>
+               <center> <h2>Artik Doctors</h2></center>
+        <hr>
+       <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="mandaliya_doc">
+        <hr>
+        <center><h2>Mandaliya Doctors</h2></center>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="gupta_doc">
+      <hr><center>  <h2>Gupta Doctors</h2></center>
+        <hr>
+      <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="astha_doc">
+       <hr>
+               <center> <h2>Astha Doctors</h2></center>
+        <hr>
+       <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+                <!-- Surat Doctors -->
+<div style="display: none;" class="care_doc">
+      <hr><center> <h2>Care Doctors</h2></center> 
+        <hr>
+      <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="udhna_doc">
+       <hr>
+               <center> <h2>Udhna Doctors</h2></center>
+        <hr>
+       <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="asutosh_doc">
+     <hr><center>   <h2>Asutosh Doctors</h2></center>
+        <hr>
+     <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="shalby_doc">
+    <hr><center>   <h2>Shalby Doctors</h2> </center> 
+        <hr>
+    <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="mahavir_doc">
+     <hr><center>   <h2>Mahavir Doctors</h2></center>
+        <hr>
+     <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+                <!-- navsari doctors -->
+<div style="display: none;" class="yashfeen_doc">
+      <hr><center>  <h2>Yashfeen Doctors</h2></center>
+        <hr>
+      <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="civil1_doc">
+     <hr><center>   <h2>Civil Doctors</h2> </center>
+        <hr>
+     <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="anand_doc">
+      <hr><center>  <h2>Anand Doctors</h2> </center>
+        <hr>
+      <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="shradha_doc">
+      <hr><center> <h2>Shradha Doctors</h2> </center> 
+        <hr>
+      <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+<div style="display: none;" class="daboo_doc">
+     <hr><center>   <h2>Daboo Doctors</h2> </center>
+        <hr>
+     <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        <hr>
+        </div>
+        <hr>
+        <div class="row">
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div style="background-color:#6DD47E;" class="col-sm">
+                        <div class="card mb-3" style="max-width: 540px; margin-left: 100px; margin-top: 15px;">
+                                <div class="row g-0">
+                                        <div class="col-md-4">
+                                                <img src="doc_face2.png" style="height: 200px; width: 200px;" >
+                                        </div>
+                                        <div class="col-md-8">
+                                                <div class="card-body">
+                                                        <h5 class="card-title">Dr. ABC, MBBS</h5>
+                                                        <p class="card-text">Here is going to be the doctors description and contacts.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3
+                                                                        mins ago</small></p>
+                                                        <a href="#" class="btn btn-primary">CLICK TO VIEW MORE</a>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<body>
+
+</body>
+
+</html>

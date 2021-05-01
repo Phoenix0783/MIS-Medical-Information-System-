@@ -1,0 +1,190 @@
+.header{
+        background-color:white;
+        height: 100px;
+        width: 100%;
+}
+#search{
+        width: 400px;
+        float: right;
+        margin-top: 40px;
+        width: 600px;
+        margin-right: 60px;
+}
+#inputGroup-sizing-lg{
+        color: white;
+        font-weight: bold;
+
+        border-color: transparent;
+}
+#logo{
+        height: 120px;
+        width: 400px;
+        margin-top: 5px;
+        margin-left: 40px;
+}
+#dropdownMenu1{
+        
+        color: whitesmoke;
+        border-color: transparent;
+        border-radius: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bold;
+}
+#dropdownMenu2{
+        
+        color: whitesmoke;
+        border-color: transparent;
+        border-radius: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bold;
+}#dropdownMenu3{
+
+        color: whitesmoke;
+        border-color: transparent;
+        border-radius: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bold;
+}#dropdownMenu4{
+
+        color: whitesmoke;
+        border-color: transparent;
+        border-radius: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bold;
+}
+
+#navigation1{
+        margin-bottom: 20px;
+}
+.navigation{
+        background-color: white;
+        padding-top: 40px;
+        height: 100px;
+}
+.dropdown-item{
+        background-color:  #f7f3e9;
+}
+#nav1{
+        margin-left: 10px;
+        margin-right: 10px;
+
+        color: whitesmoke;
+        border-radius: 3px;
+        font-weight: bold;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 4px;
+        font-size: 16px;
+        padding-bottom: 10px;
+}
+.col-sm-6{
+        height: 750px;
+}
+.col-sm-3{
+        height: 750px;
+}
+
+.footer{
+        height: 440px;
+        width: 100%;
+        background-color: lavender;
+}
+#card1{
+        margin-top: 40px;
+        margin-left: 30px;
+}
+#line1a{
+        font-size: 14px;
+}
+#line1b{
+        font-size: 30px;
+        font-weight: bold;
+}
+#line1c{
+        font-size: 15px;
+        color: grey;
+}
+#line1d{
+        color: grey;
+        font-size: 15px;
+}
+#card2{
+        margin-top: 40px;
+        margin-left: 20px;
+        border-color: transparent;
+}
+#line1a{
+        font-size: 14px;
+}
+#line1b{
+        font-size: 30px;
+        font-weight: bold;
+}
+#line1c{
+        font-size: 15px;
+        color: grey;
+}
+#line1d{
+        color: grey;
+        font-size: 15px;
+}
+#cnt1 {
+        height: 600px;
+}
+#card3a{
+        margin-top: 100px;
+}
+#card3b{
+        margin-top: 20px;
+}
+#card3c{
+        margin-top: 20px;
+}
+#card3d{
+        margin-top: 100px;
+}
+#doctors{
+        height: 150px;
+}
+.linedoc1{
+        font-size: 25px;
+}
+.linedoc1a{
+        font-size: 20px;
+}
+#doc_name{
+        font-size: 20px;
+}
+.lin4a{
+        color: grey;
+        font-size: 20px;
+        font-weight: bold;
+}
+.line4b{
+        font-size:45px ;
+        font-weight: bolder;
+        color: grey;
+}
+.line4c{
+        font-size: 20px;
+        color: grey;
+}
+.inpt{
+        height: 50px;
+        width: 470px;
+        margin-left: 550px;
+}
+#button{
+        margin-top: 40px;
+        margin-left: 720px;
+        border-color: transparent;
+        padding: 10px 40px;
+        border-radius: 70px;
+}
+#input{
+        width: 500px;
+}

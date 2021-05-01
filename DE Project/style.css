@@ -1,0 +1,53 @@
+*{
+        font-family: 'Roboto', sans-serif;
+}
+.name{
+        width: 40%;
+        border-bottom-color: black;
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+}
+.name:focus{
+        border-top-color: transparent;
+        border-left-color: transparent;
+        border-right-color: transparent;
+}
+select{
+        padding: 10px;
+}
+.fname{
+        width: 250px;
+        height: 33px;
+        border-radius: 3px;
+        border-width: 0.4px;
+}
+.email{
+        width: 735px;
+        height: 33px;
+        border-radius: 3px;
+        border-width: 0.4px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+.gender{
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+#main{
+        border-radius: 10px;
+        padding: 30px;
+        width: 800px;
+        margin-left: 350px;
+        margin-bottom: 30px;
+}
+h2{
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+}
+#btn{
+        font-size: 20px;
+        border-radius: 40px;
+        padding: 10px 30px;
+}
